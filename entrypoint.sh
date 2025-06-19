@@ -12,6 +12,7 @@ exec odoo \
   --dev=all \
   --db_host=${DB_HOST} \
   --db_port=5432 \
+  --db_user=odoo \
   --db_password=${DB_PASSWORD} \
   --http-port=8069 \
   --without-demo=all \
