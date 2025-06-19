@@ -12,7 +12,7 @@ exec odoo \
   --dev=all \
   --db_host=dpg-postgres.railway.internal \
   --db_port=5432 \
-  --db_user=postgres \
+  --db_user=admin \
   --db_password=NSmKccDkFElZmmiKnstQAIYTQeFYOotk \
   --http-port=8069 \
   --without-demo=all \
