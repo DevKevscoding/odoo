@@ -10,10 +10,10 @@ exec odoo \
   -d railway \
   -i base \
   --dev=all \
-  --db_host=postgres.railway.internal \
-  --db_port=5432 \
-  --db_user=admin \
-  --db_password=NSmKccDkFElZmmiKnstQAIYTQeFYOotk \
+  --db_host=${DB_HOST} \
+  --db_port=${${DB_PORT}} \
+  --db_user=${DB_USER} \
+  --db_password=${DB_PASSWORD} \
   --http-port=8069 \
   --without-demo=all \
   --log-level=info \
